@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your saved model
-pipe_xgb = joblib.load('pipe_xgb_model.pkl')
+pipe_xgb = joblib.load('scripts/pipe_xgb_model.pkl')
 
 # Title
 st.title("ODI Cricket Score Predictor(1st innings)")
